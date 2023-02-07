@@ -1,0 +1,49 @@
+<html lang="es">
+    <head>
+        <title>Iniciar Sesión</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="Página de la Tienda VideoGameOnlineStore">
+        <meta name="keyword" content="videogame, videojuegos, tienda">
+        <link href="css/estilosp.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+    <body>
+        <header class="encabezado">
+            <nav>
+                <a href="index.html" style="text-decoration: none" class="encabezado"><h1>VideoGameOnlineStore</h1></a>
+            </nav>
+        </header>
+
+        <aside class="lateral">
+            <h2>VideoGameOnlineStore</h2><br>
+            <p>Iniciar sesión</p><br>
+            <p>Para realizar esta acción debe de iniciar sesión</p>
+        </aside>
+
+        <section class="contenido">
+            <h2>Inicio de sesión</h2><br>
+            <article>
+                <header>
+                    <h3><em>Iniciar sesión</em></h3>
+                </header>
+
+                <form name="info" action="iniciosesion.jsp" method="post">
+                    <fieldset>
+                        <label>Correo Electronico</label>
+                        <input type="text" name="correo electrónico" value="" size="30"/>
+                    </fieldset>
+                    <fieldset>
+                        <label>Clave</label>
+                        <input type="password" name="clave" value="" size="10" />
+                    </fieldset>
+                    <input type="submit" value="Iniciar Sesión"/>
+                </form>
+            </article>
+
+        </section>
+
+        <footer class="footer">
+            VideoGameOnlineStore &COPY; 2023
+        </footer>
+    </body>
+</html>
